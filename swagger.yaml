@@ -117,10 +117,10 @@ components:
     item:
       type : object
       properties:
-        name:
+        description:
           type : string
           example: Item Name
-        unit_price:
+        amount:
           type: number
           example : 10.4
     customer: 
