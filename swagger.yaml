@@ -16,7 +16,7 @@ info:
   version: 1.0.11
 
 servers:
-  - url: httsp://test.coinway.io/api
+  - url: https://test.coinway.io/api
 tags:
   - name: HealthCheck
   - name: Invoice
