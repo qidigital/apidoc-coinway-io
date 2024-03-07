@@ -76,6 +76,12 @@ paths:
                       amount : 22
                     - description: My Item 2
                       amount : 22
+              Guest Customer:
+                value:
+                  currency: USD
+                  items:
+                    - description: My Item 1
+                      amount : 22
       responses:
         '200':
           description: Successful Registration
