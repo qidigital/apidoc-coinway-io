@@ -17,6 +17,7 @@ info:
 
 servers:
   - url: https://test.coinway.io/api
+  - url: https://demo.coinway.io/api
 tags:
   - name: HealthCheck
   - name: Invoice
