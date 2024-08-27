@@ -43,7 +43,7 @@ paths:
         - BearerAuth: []
       tags:
         - Invoice
-      summary: To get information on invoices
+      summary: Retrieves invoice informationi
       description: 
       responses:
         '200':
@@ -58,7 +58,7 @@ paths:
       tags:
         - Invoice
       summary: Create a new invoice or payment request
-      description: To  register new  user.
+      description: Creating an invoice or payment request with a base fiat currency, i.e. USD
       requestBody:
         description: Register a new  user
         content:
