@@ -4,13 +4,9 @@ info:
   description: |-
   Coinway is a comprehensive, highly configurable crypto payment gateway. Developed by Qi Digital, a London based blockchain technology company. The Smart API is a fully hosted crypto payment processing solution and can be integrated with minimal development effort. Coinway is integrated with and supports the following blockchains Bitcoin, Ethereum, Tether (USDT), BitcoinCash, LiteCoin. Other cryptocurrencies can be added upon request.
 
-
-
-    
-
   termsOfService: http://swagger.io/terms/
   contact:
-    email: connect@qidigital.com
+    email: dev@qidigital.com
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
