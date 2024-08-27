@@ -3,7 +3,7 @@ info:
   title: Coinway.io
   description: |-
     Coinway is a powerful crypto payment gateway, developed by London based technology company, Qi Digital. Coinway is an blockchain agnostic platform and supports Bitcoin, Ethereum, Litecoin, Tether USDT and other stablecoins.
-    This is a Cend.app API. These  API's can  be used to  register, validate and login users. There are alos API's available  for wallet creation, fetching and deletion.
+    Coinway is available a white label service for customers who wish to embed crypto payment processing into their technology.
 
 
     
@@ -43,11 +43,11 @@ paths:
         - BearerAuth: []
       tags:
         - Invoice
-      summary: To register a  new  user
-      description: To  register new  user.
+      summary: To get information on invoices
+      description: 
       responses:
         '200':
-          description: To get all invoices
+          description: Get all invoices
           content:
             application/json:
               schema:
@@ -57,7 +57,7 @@ paths:
         - BearerAuth: []
       tags:
         - Invoice
-      summary: To register a  new  user
+      summary: Create a new invoice or payment request
       description: To  register new  user.
       requestBody:
         description: Register a new  user
