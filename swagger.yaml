@@ -2,11 +2,7 @@ openapi: 3.0.3
 info:
   title: Coinway.io
   description: |-
-  Coinway is a comprehensive, highly configurable crypto payment gateway. Developed by Qi Digital, a London based blockchain technology company.
-  
-  The Smart API is a fully hosted crypto payment processing solution and can be integrated with minimal development effort.
-
-  Coinway is integrated with and supports the following blockchains; Bitcoin, Ethereum, Tether (USDT), BitcoinCash, LiteCoin. Other cryptocurrencies can be added upon request.
+  Coinway is a comprehensive, highly configurable crypto payment gateway. Developed by Qi Digital, a London based blockchain technology company. The Smart API is a fully hosted crypto payment processing solution and can be integrated with minimal development effort. Coinway is integrated with and supports the following blockchains Bitcoin, Ethereum, Tether (USDT), BitcoinCash, LiteCoin. Other cryptocurrencies can be added upon request.
 
 
 
