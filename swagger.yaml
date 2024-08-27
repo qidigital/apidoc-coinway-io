@@ -60,7 +60,7 @@ paths:
       summary: Create a new invoice or payment request
       description: Creating an invoice or payment request with a base fiat currency, i.e. USD
       requestBody:
-        description: Register a new  user
+        description: 
         content:
           application/json:
             schema:
@@ -86,7 +86,7 @@ paths:
                       amount : 22
       responses:
         '200':
-          description: Successful Registration
+          description: Invoice successfully created
           content:
             application/json:
               schema:
@@ -97,8 +97,8 @@ paths:
         - BearerAuth: []
       tags:
         - Invoice
-      summary: To register a  new  user
-      description: To  register new  user.
+      summary: Invoice details
+      description: Retrieves invoice or payment request information, including ID.
       parameters:
         - name: invoiceId
           in: path
@@ -109,7 +109,7 @@ paths:
             example: p_65e36f37481a6
       responses:
         '200':
-          description: Successful Registration
+          description: Invoice ID and details successfully generated
           content:
             application/json:
               schema:
