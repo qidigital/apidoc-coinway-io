@@ -2,6 +2,7 @@ openapi: 3.0.3
 info:
   title: Coinway.io
   description: |-
+    Coinway is a powerful crypto payment gateway, developed by London based technology company, Qi Digital. Coinway is an blockchain agnostic platform and supports Bitcoin, Ethereum, Litecoin, Tether USDT and other stablecoins.
     This is a Cend.app API. These  API's can  be used to  register, validate and login users. There are alos API's available  for wallet creation, fetching and deletion.
 
 
