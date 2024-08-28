@@ -62,7 +62,16 @@ paths:
               $ref: '#/components/schemas/invoice'
             examples:
               For New Customer:
-                $ref: '#/components/schemas/invoice'
+                value:
+                  currency: USD
+                  customer:
+                    name : John Doe
+                    email : john.doe@email.com
+                  items:
+                    - description: My Item 1
+                      amount : 22
+                    - description: My Item 2
+                      amount : 22
               Existing Customer:
                 value:
                   currency: USD
