@@ -2,13 +2,7 @@ openapi: 3.0.3
 info:
   title: Coinway.io
   description: |-
-    Coinway is a powerful crypto payment gateway, developed by London based technology company, Qi Digital. Coinway is an blockchain agnostic platform and supports Bitcoin, Ethereum, Litecoin, Tether USDT and other stablecoins.
-    Coinway is available a white label service for customers who wish to embed crypto payment processing into their technology.
-  additional information: |-
     Coinway is a peer-to-peer payment gateway, which means you or your merchant must have a digital (crypto) currency receiving wallet address. Coinway works with licensed and registered crypto exchanges should you wish to convert your digital and make introductions. Please note, you or your merchant would need to meet the compliance obligations of that or other crypto exchange. You may wish to use your very own self-custodial wallet, please contact our team to discuss the various options. One final note, Coinway or its developers, Qi Digital Limited do not store any funds nor are we in the flow of any funds.
-
-
-    
 
   termsOfService: http://swagger.io/terms/
   contact:
@@ -45,8 +39,8 @@ paths:
         - BearerAuth: []
       tags:
         - Invoice
-      summary: Retrieves invoice informationi
-      description: 
+      summary: Retrieves invoice information
+      description: Retrieves invoice information 
       responses:
         '200':
           description: Get all invoices
@@ -62,7 +56,6 @@ paths:
       summary: Create a new invoice or payment request
       description: Creating an invoice or payment request with a base fiat currency, i.e. USD
       requestBody:
-        description: 
         content:
           application/json:
             schema:
