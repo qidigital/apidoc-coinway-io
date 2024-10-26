@@ -1,10 +1,10 @@
 openapi: 3.0.3
 info:
-  title: Coinway.io
+  title: Coinway Integration API
   description: |-
-    Coinway is a peer-to-peer payment gateway, which means you or your merchant must have a digital (crypto) currency receiving wallet address. Coinway works with licensed and registered crypto exchanges should you wish to convert your digital and make introductions. Please note, you or your merchant would need to meet the compliance obligations of that or other crypto exchange. You may wish to use your very own self-custodial wallet, please contact our team to discuss the various options. One final note, Coinway or its developers, Qi Digital Limited do not store any funds nor are we in the flow of any funds.
+    Coinway is a peer-to-peer crypto payment gateway designed for seamless integration into e-commerce platforms, allowing merchants to accept cryptocurrency payments directly. To use Coinway, merchants must have a digital wallet address for receiving crypto payments, as Coinway itself does not hold or manage funds. For merchants interested in converting digital assets to fiat, Coinway partners with licensed and registered crypto exchanges and can facilitate introductions. However, please be aware that merchants must meet the compliance requirements of the chosen exchange. Coinway also supports self-custodial wallet options; our team is available to discuss these choices to suit your needs.
 
-  termsOfService: http://swagger.io/terms/
+  termsOfService: http://qidigital.com/terms/
   contact:
     email: dev@qidigital.com
   license:
